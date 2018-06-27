@@ -1,0 +1,1 @@
+print('Possible implementation of hometask')
