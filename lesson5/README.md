@@ -6,7 +6,7 @@
 https://docs.python.org/3.6/library/csv.html
 
 **Python built-in open function:**  
-Read about available open modes.
+Read about available open modes.  
 https://docs.python.org/3/library/functions.html#open
 
 **JSON Module in Python:**  
