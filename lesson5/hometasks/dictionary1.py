@@ -11,7 +11,7 @@ dictionary = json.load(f)
 with open("dictionary.json", "r") as fp:
     dictionary = json.load(f)
 
-#open('dictionary.json')
+open('dictionary.json')
 #print({"wine"})
 
 #w stands for writing permission for the opened file

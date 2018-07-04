@@ -1,6 +1,6 @@
 #should I define that this is a dictionary=> dictionary = ...
 
-{
+dictionary = {
   "wine": [
     {"wine_name": "merlot",
       "grape_type": "red",
