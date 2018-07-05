@@ -1,6 +1,6 @@
 # Lesson 5 Info
 
-## Userful links
+## Useful links
 
 **CSV Module in Python:**  
 https://docs.python.org/3.6/library/csv.html
