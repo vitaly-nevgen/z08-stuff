@@ -10,11 +10,16 @@ def get_jobs():
     return jobs
 
 
-def resize_image(infile, outfile, size):
+def resize_image(infile, outfile, size, preview_type):
+    size_tuple = (size, size)
     im = Image.open(infile)
-    im.thumbnail(size)
-    thumb = ImageOps.fit(im, size, Image.ANTIALIAS)
-    thumb.save(outfile, "JPEG")
+
+    if preview_type == 'thumbnail':
+        im.thumbnail(size_tuple)
+    elif preview_type == 'fit':
+        im = ImageOps.fit(im, size_tuple, Image.ANTIALIAS)
+
+    im.save(outfile, "JPEG")
 
 
 jobs = get_jobs()
@@ -32,4 +37,4 @@ for job in jobs:
             ext=ext
         )
 
-        print(preview_filename)
+        resize_image(filename, preview_filename, preview['size'], preview['type'])
