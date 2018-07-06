@@ -1,0 +1,17 @@
+[{
+	"filename": "hello.jpg",
+	"previews": [
+	   {
+         "size": 200,
+         "type": "fit"
+	   },
+	   {
+        "size": 640,
+        "type": "thumbnail"
+	   },
+       {
+         "size": 50,
+         "type": "fit"
+       }
+	]
+}]
