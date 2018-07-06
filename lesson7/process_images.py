@@ -22,19 +22,20 @@ def resize_image(infile, outfile, size, preview_type):
     im.save(outfile, "JPEG")
 
 
-jobs = get_jobs()
+if __name__ == '__main__':
+    jobs = get_jobs()
 
-for job in jobs:
-    filename = job['filename']
+    for job in jobs:
+        filename = job['filename']
 
-    for preview in job['previews']:
-        name, ext = os.path.splitext(filename)
+        for preview in job['previews']:
+            name, ext = os.path.splitext(filename)
 
-        preview_filename = '{name}_{type}{size}{ext}'.format(
-            name=name,
-            type=preview['type'],
-            size=preview['size'],
-            ext=ext
-        )
+            preview_filename = '{name}_{type}{size}{ext}'.format(
+                name=name,
+                type=preview['type'],
+                size=preview['size'],
+                ext=ext
+            )
 
-        resize_image(filename, preview_filename, preview['size'], preview['type'])
+            resize_image(filename, preview_filename, preview['size'], preview['type'])
