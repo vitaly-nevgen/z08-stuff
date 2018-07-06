@@ -1,0 +1,26 @@
+[{
+	"filename": "camomile.jpg",
+	"previews": [
+	   {
+         "size": 300,
+         "type": "fit"
+	   },
+	  {
+        "size": 640,
+        "type": "thumbnail"
+	  }
+	]
+},
+{
+	"filename": "scene.jpg",
+	"previews": [
+	   {
+         "size": 300,
+         "type": "fit"
+	   },
+	  {
+        "size": 640,
+        "type": "thumbnail"
+	  }
+	]
+}]
