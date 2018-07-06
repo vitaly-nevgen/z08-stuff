@@ -1,0 +1,17 @@
+[
+  {
+    "first_name": "Jack",
+    "last_name": "Johnson",
+    "age": 30,
+    "address": {
+        "zip": "220000",
+        "street": "Lenina av. 1"
+    }
+  }, {
+    "first_name": "Alice",
+    "last_name": "Bob",
+    "age": 32,
+    "shoes_color": "Black",
+    "cars": ["BMW", "Daewoo"]
+  }
+]
