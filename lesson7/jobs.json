@@ -12,6 +12,10 @@
        {
          "size": 50,
          "type": "fit"
+       },
+        {
+         "size": 150,
+         "type": "thumbnail"
        }
 	]
 }]
