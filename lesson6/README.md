@@ -1,4 +1,4 @@
-# Lesson 6 Info
+# Lesson 6
 
 ## Useful links and info
 

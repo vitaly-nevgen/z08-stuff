@@ -1,4 +1,4 @@
-# Lesson 5 Info
+# Lesson 5
 
 ## Useful links
 
