@@ -1,6 +1,3 @@
-from random import randrange
-
-
 def gnomesort(items):
     i = 0
     while i < len(items):
@@ -10,7 +7,7 @@ def gnomesort(items):
             items[i], items[i-1] = items[i-1], items[i]
             i -= 1
 
-items = [6, 10, 5, 8, 9, 14, 5, 6, 28, 50, 32]
+items =[6, 10, 5, 8, 9, 14, 5, 6, 28, 50, 32]
 
 print(gnomesort(items))
 
