@@ -1,4 +1,5 @@
 # Lesson 7
+**6 July 2018**
 
 ## Useful links and info
 
