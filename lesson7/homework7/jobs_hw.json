@@ -1,0 +1,13 @@
+[{
+	"dir_name": "my_images",
+	"previews": [
+	   {
+         "size": 200,
+         "type": "fit"
+	   },
+	  {
+        "size": 640,
+        "type": "thumbnail"
+	  }
+	]
+}]
