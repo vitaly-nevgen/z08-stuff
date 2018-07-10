@@ -1,4 +1,5 @@
-# Lesson 6 Info
+# Lesson 6
+**4 July 2018**
 
 ## Useful links and info
 
