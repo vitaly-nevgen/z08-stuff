@@ -25,8 +25,3 @@ for path in images_paths:
     new_image_name = gen_new_image_name(image_name, method, size)
     new_image_path = os.path.join(processed_images_folder, new_image_name)
     resize_image(path, new_image_path, size, method)
-
-
-
-
-
