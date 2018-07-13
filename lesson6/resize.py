@@ -2,7 +2,7 @@ from PIL import Image, ImageOps
 #
 size = (128, 128)
 #
-infile = '22430013.jpg'
+infile = 'Hello.jpg'
 
 outfile = 'resized.png'
 
