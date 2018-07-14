@@ -9,6 +9,9 @@ https://stackoverflow.com/questions/6760685/creating-a-singleton-in-python
 **Rich comparison methods**:\
 [`https://docs.python.org/3.6/reference/datamodel.html#object.__lt__`](https://docs.python.org/3.6/reference/datamodel.html#object.__lt__)
 
+**@classmethod**:\
+https://www.programiz.com/python-programming/methods/built-in/classmethod
+
 ## Hometask
 1. Создать класс Figure, в котором будет пустой метод `.get_area()`.\
 1.2. Создать два класса — Circle и Rectangle, которые будут наследоваться от класса Figure.\
@@ -38,7 +41,7 @@ https://stackoverflow.com/questions/6760685/creating-a-singleton-in-python
    ```
 
 
-3. `**`\
+3. `**` Для того, чтобы решить задание три, нужно будет использовать в том числе тот самый `@classmethod`.\
     3.1. Создать еще класс Triangle *(так, для развлечения)*, который будет запрашивать длины трех сторон (`a`, `b` и `c`).
     В этом классе также нужно реализовать подсчет площади, например это можно сделать по формуле Герона.\
     3.2. Создать класс-синглтон FiguresRegistry, который будет иметь следующие методы:\
