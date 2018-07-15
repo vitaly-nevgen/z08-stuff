@@ -9,6 +9,9 @@ https://stackoverflow.com/questions/6760685/creating-a-singleton-in-python
 **Rich comparison methods**:\
 [`https://docs.python.org/3.6/reference/datamodel.html#object.__lt__`](https://docs.python.org/3.6/reference/datamodel.html#object.__lt__)
 
+**Implementing rich comparison the correct way**:\
+https://regebro.wordpress.com/2010/12/13/python-implementing-rich-comparison-the-correct-way/
+
 **@classmethod**:\
 https://www.programiz.com/python-programming/methods/built-in/classmethod
 
