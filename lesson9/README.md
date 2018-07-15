@@ -12,6 +12,9 @@ https://stackoverflow.com/questions/6760685/creating-a-singleton-in-python
 **Implementing rich comparison the correct way**:\
 https://regebro.wordpress.com/2010/12/13/python-implementing-rich-comparison-the-correct-way/
 
+**Mixin pattern**:\
+https://en.wikipedia.org/wiki/Mixin
+
 **@classmethod**:\
 https://www.programiz.com/python-programming/methods/built-in/classmethod
 
