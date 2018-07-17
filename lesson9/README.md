@@ -9,6 +9,12 @@ https://stackoverflow.com/questions/6760685/creating-a-singleton-in-python
 **Rich comparison methods**:\
 [`https://docs.python.org/3.6/reference/datamodel.html#object.__lt__`](https://docs.python.org/3.6/reference/datamodel.html#object.__lt__)
 
+**Implementing rich comparison the correct way**:\
+https://regebro.wordpress.com/2010/12/13/python-implementing-rich-comparison-the-correct-way/
+
+**Mixin pattern**:\
+https://en.wikipedia.org/wiki/Mixin
+
 **@classmethod**:\
 https://www.programiz.com/python-programming/methods/built-in/classmethod
 
@@ -81,10 +87,12 @@ https://www.programiz.com/python-programming/methods/built-in/classmethod
 
 
 4. `*****` \
-    TODO: я еще добавлю файл с тестами, которые должна уметь проходить ваша программа.
-    Убедитесь, что в вашей программе есть проверка на `__name__ == '__main__'` чтобы тесты могли нормально импортировать ваши классы.
-    Разумеется, что в тесте нужно будет указать правильный путь для импортирования вашего файла с реализациями классов.
+    Я добавил тесты, с помощью которых вы сможете убедиться, что ваша программа работает правильно.
+    Откройте тесты, укажите правильные пути для классов, которые там импортируются и запустите тесты
+    (просто запускаете сам файл, где написан код тестов).
 
+    Убедитесь, что в вашей программе есть проверка на `__name__ == '__main__'`
+    (на случай если там есть что-то помимо объявления классов) чтобы тесты могли нормально импортировать ваши классы.
 
-
-
+    [lesson9/hometasks/test_test_1_2.py](hometasks/test_task_1_2.py)\
+    [lesson9/hometasks/test_test_3.py](hometasks/test_task_3.py)
