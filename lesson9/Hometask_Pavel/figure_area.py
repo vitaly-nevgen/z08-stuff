@@ -1,22 +1,7 @@
 import math
-# 3.2. Создать класс-синглтон FiguresRegistry, который будет иметь следующие методы:
 
-# — .add(instance): это метод, который должен вызываться каждый раз, когда создается новый экземпляр
-#    какой либо фигуры. То есть необходимо запихнуть вызов FiguresRegistry().add() в метод Figure.__init__.
-
-# — .get_list(type): это метод, который должен возвращать список инстансов по конкретному типу.
-#    То есть вызывая FiguresRegistry().get_list(Circle) должен возвращаться список всех Circle,
-#    которые были инстанциированы.
-
-class FiguresRegistry():
-
-    def get_list(self, figure_type):
-        pass
 
 class Figure:
-
-    def __int__(self):
-
 
     def get_area(self):
         pass
