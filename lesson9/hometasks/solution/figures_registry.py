@@ -5,11 +5,12 @@ __all__ = (
 
 class FiguresRegistry:
     _instance = None
-    registry = {}
+    registry = None
 
     def __new__(cls):
         if not cls._instance:
             cls._instance = object.__new__(cls)
+            cls.registry = {}
 
         return cls._instance
 
