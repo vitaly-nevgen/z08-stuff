@@ -2,7 +2,7 @@ class ProgrammingLanguage:
     name = None
 
     def get_name(self):
-        return self.__class__.__name__
+        return self.__class__
 
     def get_program(self):
         raise NotImplementedError()
