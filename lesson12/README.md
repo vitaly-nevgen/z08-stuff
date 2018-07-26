@@ -15,7 +15,7 @@ https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 http://jinja.pocoo.org/
 
 **CSS Tutorial + description**:\
-https://en.wikipedia.org/wiki/Cascading_Style_Sheets\
+https://en.wikipedia.org/wiki/Cascading_Style_Sheets
 https://www.w3schools.com/css/
 
 **HTML forms**:\
