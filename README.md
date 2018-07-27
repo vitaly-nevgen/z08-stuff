@@ -13,5 +13,6 @@
 [Lesson 9](lesson9/) — 13 July 2018\
 [Lesson 10](lesson10/) — 18 July 2018\
 [Lesson 11](lesson11/) — 20 July 2018\
-[Lesson 12](lesson12/) — 25 July 2018
+[Lesson 12](lesson12/) — 25 July 2018 \
+[Lesson 13](lesson13/) — 27 July 2018
 
