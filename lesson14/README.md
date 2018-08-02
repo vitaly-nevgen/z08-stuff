@@ -17,6 +17,7 @@ https://devcenter.heroku.com/articles/free-dyno-hours
 
 ## Hometask
 1. Настроить деплоймент заново с нуля.
+2. Придумать тему для проекта.
 
 ## Diploma criterias:
 1. Django framework usage.
