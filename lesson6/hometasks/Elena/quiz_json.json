@@ -34,5 +34,22 @@
                 "answer": "4"
             }
         }
+    },
+    "results": {
+        "sport": {
+            "q1": {
+                "result1": true,
+                "result2": false,
+                "result3": true
+            }
+        },
+        "math": {
+            "q1": {
+                "result1": false
+            },
+            "q2": {
+                "result1": false
+            }
+        }
     }
 }
