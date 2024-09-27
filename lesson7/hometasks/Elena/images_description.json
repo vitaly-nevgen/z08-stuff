@@ -1,0 +1,38 @@
+[{
+		"filename": "camomile.jpg",
+		"previews": [{
+				"size": 300,
+				"type": "fit",
+			    "centering": [0.8, 0.0]
+			},
+			{
+				"size": 640,
+				"type": "thumbnail",
+			    "centering": [0.8, 0.0]
+
+			},
+			{
+				"size": 50,
+				"type": "fit",
+			    "centering": [0.8, 0.0]
+
+			}
+		]
+	},
+	{
+		"filename": "scene.jpg",
+		"previews": [{
+				"size": 300,
+				"type": "fit"
+			},
+			{
+				"size": 640,
+				"type": "thumbnail"
+			},
+			{
+				"size": 50,
+				"type": "fit"
+			}
+		]
+	}
+]
